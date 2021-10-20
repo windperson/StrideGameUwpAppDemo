@@ -202,7 +202,7 @@
       <Project>{375b2206-291d-46bf-b36f-7677f24bbf2c}</Project>
       <Name>TestGame</Name>
     </ProjectReference>
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.12" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.13" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
