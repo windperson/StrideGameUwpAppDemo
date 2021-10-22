@@ -8,6 +8,11 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <SwapChainPanel x:Name="SwapChainPanel" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0">Stride Game Embedded in &lt;SwapChainPanel&gt; Demo</TextBlock>
+        <SwapChainPanel Grid.Row="1" x:Name="SwapChainPanel" />
     </Grid>
 </Page>
